@@ -69,7 +69,7 @@ const NavBar: React.FC = () => {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <a className='banner-download-cv' href="./Beka_Maisuradze.pdf" download>
+              <a className='banner-download-cv' href="./Luka Janelidze - CV.pdf" download>
                 <button className="vvd">
                   <span>Download CV</span>
                 </button>
