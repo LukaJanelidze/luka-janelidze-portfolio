@@ -10,6 +10,7 @@ import projImg7 from "./../../assets/img/tip-calculator.png";
 import projImg8 from "./../../assets/img/link-sharing-app.png";
 import projImg10 from "./../../assets/img/NFR-card.png";
 import projImg11 from "./../../assets/img/QR-code.png";
+import projImg12 from "./../../assets/img/quiz-app.png"
 import colorSharp2 from "./../../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -19,20 +20,26 @@ const Projects = () => {
   const projectsTSX = [
     {
       title: "Interactive Card Details",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg1,
       link: 'https://interactive-card-details-omega.vercel.app/',
     },
     {
       title: "FAQ Accordion Card",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg2,
       link: 'https://faq-accordion-card-zeta-mauve.vercel.app/',
     },
     {
       title: "Interactive Rating Component",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg3,
+      link: 'https://interactive-rating-component-xi-ten.vercel.app/',
+    },
+    {
+      title: "Quiz Application",
+      description: "Development",
+      imgUrl: projImg12,
       link: 'https://interactive-rating-component-xi-ten.vercel.app/',
     },
   ];
@@ -40,19 +47,19 @@ const Projects = () => {
   const projectsJSX = [
     {
       title: "Ailu Website",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg4,
       link: 'https://project-sailu.vercel.app/',
     },
     {
       title: "Order Summary",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg5,
       link: 'https://order-summary-beryl-nu.vercel.app/',
     },
     {
       title: "Skilled E-Learning",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg6,
       link: 'https://skilled-elearning-theta.vercel.app/',
     },
@@ -61,25 +68,25 @@ const Projects = () => {
   const projectsOther = [
     {
       title: "Tip Calculator",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg7,
       link: 'https://tip-calculator-ebon-six.vercel.app/',
     },
     {
       title: "Link Sharing App",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg8,
       link: 'https://other-side.vercel.app/',
     },
     {
       title: "NFT Card",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg10,
       link: 'https://nft-card-murex-six.vercel.app/',
     },
     {
       title: "QR Code",
-      description: "Design & Development",
+      description: "Development",
       imgUrl: projImg11,
       link: 'https://qr-code-two-omega.vercel.app/',
     },
