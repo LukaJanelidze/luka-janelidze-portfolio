@@ -11,6 +11,7 @@ import projImg8 from "./../../assets/img/link-sharing-app.png";
 import projImg10 from "./../../assets/img/NFR-card.png";
 import projImg11 from "./../../assets/img/QR-code.png";
 import projImg12 from "./../../assets/img/quiz-app.png"
+import projImg13 from "./../../assets/img/post-img.png"
 import colorSharp2 from "./../../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -38,9 +39,15 @@ const Projects = () => {
     },
     {
       title: "Quiz Application",
-      description: "Development",
+      description: "Design & Development",
       imgUrl: projImg12,
-      link: 'https://interactive-rating-component-xi-ten.vercel.app/',
+      link: 'https://quiz-app-sand-xi.vercel.app/',
+    },
+    {
+      title: "Posting Application",
+      description: "Design & Development",
+      imgUrl: projImg13,
+      link: 'https://post-psi-seven.vercel.app/',
     },
   ];
 
